@@ -26,7 +26,7 @@ function run() {
 			)
 			console.log(
 				`      ${chalk.cyan(
-					'https://github.com/techfox/teachfox-react-native'
+					'https://github.com/techfox/techfox-react-native'
 				)}`
 			)
 			console.log()
@@ -35,7 +35,7 @@ function run() {
 			)
 			console.log(
 				`      ${chalk.cyan(
-					'https://github.com/techfox/teachfox-react-native/issues/new'
+					'https://github.com/techfox/techfox-react-native/issues/new'
 				)}`
 			)
 			console.log()
