@@ -1,6 +1,6 @@
 {
-  "name": "@techfox-community/base-structure",
-  "version": "0.0.4",
+  "name": "@techfox-react-native/base-structure",
+  "version": "0.0.5",
   "description": "Create React apps with TechFox Base Structure",
   "main": "index.js",
   "repository": {
@@ -19,5 +19,6 @@
     "techfox",
     "base-structure"
   ],
-  "author": "John <john@techfox.io>"
+  "author": "John <john@techfox.io>",
+  "gitHead": "fec3b4dfdf9a0a34c85351ecfd66dcb3607ab8f5"
 }
