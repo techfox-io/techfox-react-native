@@ -1,6 +1,6 @@
 {
   "name": "base-structure",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Create React apps with TechFox Base Structure",
   "main": "index.js",
   "repository": {
