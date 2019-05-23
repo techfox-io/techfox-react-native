@@ -6,7 +6,7 @@ const chalk = require('chalk')
 const commander = require("commander")
 const figlet = require('figlet')
 
-const TechFoxCRA = require('./tasks/techfox-rn-cra.js')
+const InitCommander = require('./commanders/init-commander')
 
 showLogoCompany()
 
@@ -64,6 +64,8 @@ function run() {
 }
 
 function showLogoCompany() {
+	console.log('Welcome to TechFox JSC!!')
+	console.log()
 	console.log(
 		chalk.yellowBright(
 			figlet.textSync('TechFox JSC', { horizontalLayout: 'full' })
@@ -81,6 +83,5 @@ function verbose() {
 }
 
 function init(name) {
-	console.log(chalk.green(`Creating a new React app ${name}`))
-	new TechFoxCRA(name).run()
+	new InitCommander({ name }).autoGenerate()
 }

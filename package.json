@@ -5,7 +5,7 @@
   "license": "ISC",
   "bin": "./cli.js",
   "scripts": {
-    "techfox-react-native-create": "node tasks/techfox-rn-cra.js",
+    "techfox-react-native-create": "node tasks/techfox-initialize.js",
     "test": "jest"
   },
   "keywords": [
@@ -18,7 +18,7 @@
   "files": [
     "cli.js",
     "packages/base-structure",
-    "tasks/techfox-rn-cra.js"
+    "tasks/techfox-initialize.js"
   ],
   "dependencies": {
     "clear": "0.1.0",
@@ -26,7 +26,6 @@
     "configstore": "4.0.0",
     "figlet": "1.2.1",
     "inquirer": "6.3.1",
-    "lerna": "^3.14.1",
     "minimist": "1.2.0",
     "react": "16.8.3",
     "react-native": "0.59.8",
