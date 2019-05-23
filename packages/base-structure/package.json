@@ -1,6 +1,6 @@
 {
   "name": "@techfox-community/base-structure",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create React apps with TechFox Base Structure",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,12 @@
   "engines": {
     "node": ">=10"
   },
-  "gitHead": "3b2265cf7db71061d81eb1b67e7ac438481b1c84"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "techfox",
+    "base-structure"
+  ],
+  "author": "John <john@techfox.io>"
 }
