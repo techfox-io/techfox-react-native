@@ -1,6 +1,6 @@
 {
   "name": "@techfox-community/base-structure",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create React apps with TechFox Base Structure",
   "main": "index.js",
   "repository": {
@@ -11,5 +11,6 @@
   "license": "MIT",
   "engines": {
     "node": ">=10"
-  }
+  },
+  "gitHead": "3b2265cf7db71061d81eb1b67e7ac438481b1c84"
 }
