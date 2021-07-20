@@ -28,7 +28,7 @@
     "inquirer": "6.3.1",
     "minimist": "1.2.0",
     "react": "16.8.3",
-    "react-native": "0.59.8",
+    "react-native": "0.62.3",
     "redux": "4.0.1"
   },
   "devDependencies": {
